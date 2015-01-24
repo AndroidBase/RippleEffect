@@ -34,6 +34,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 /**
+ * 适配器
  * Author :    Chutaux Robin
  * Date :      1/6/2015
  */

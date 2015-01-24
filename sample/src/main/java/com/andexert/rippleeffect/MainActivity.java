@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.andexert.library.RippleView;
 
@@ -50,6 +51,8 @@ public class MainActivity extends ActionBarActivity
             @Override
             public void onClick(View v)
             {
+
+                Toast.makeText(MainActivity.this,"点击",Toast.LENGTH_LONG).show();
                 Log.e("Sample", "Click rect child !");
             }
         });
